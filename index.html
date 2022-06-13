@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body>
+    <main class="main__section">
+      <div class="main__left">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+          understanding how developers think is invaluable.
+        </p>
+      </div>
+      <div class="main__right">
+        <div class="main__trial">
+          <p><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+        </div>
+        <form class="main__form">
+          <div class="form__input">
+            <input class="form__firstname" type="text" placeholder="First Name" />
+            <img class="error-icon" src="images/icon-error.svg" alt="Error Icon" />
+            <small class="error__message"></small>
+          </div>
+          <div class="form__input">
+            <input class="form__lastname" type="text" placeholder="Last Name" />
+            <img class="error-icon" src="images/icon-error.svg" alt="Error Icon" />
+            <small class="error__message"></small>
+          </div>
+          <div class="form__input">
+            <input class="form__email" type="email" placeholder="Email" />
+            <img class="error-icon" src="images/icon-error.svg" alt="Error Icon" />
+            <small class="error__message"></small>
+          </div>
+          <div class="form__input">
+            <input class="form__password" type="password" placeholder="Password" />
+            <img class="error-icon" src="images/icon-error.svg" alt="Error Icon" />
+            <small class="error__message"></small>
+          </div>
+          <div>
+            <button class="main__button" type="submit">Claim your free trial</button>
+          </div>
+          <div class="form__footer">
+            <p>
+              By clicking the button, you are agreeing to our
+              <a class="terms__link" href="#"> Terms and Services</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
